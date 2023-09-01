@@ -1,0 +1,30 @@
+body {
+background-color: lightblue;
+
+}
+
+p {
+    color: orange; 
+    background-color:black;
+    margin: 30px;
+}
+
+ol {
+    color: lightgreen;
+    background-color: darkgrey;
+}
+
+ul {
+    background-color: black;
+}
+
+#introduction {
+    font: size 40px;
+    background-color:chocolate;
+}
+
+.introduction {
+background-color:darkgoldenrod;
+border: 45px solid red;
+
+}
