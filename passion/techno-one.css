@@ -12,7 +12,7 @@ p {
 }
 
 .uno {
-    border: 15px ridge limegreen;
+    border: 15px dotted limegreen;
     padding: 30px;
     text-align: center;
 }
