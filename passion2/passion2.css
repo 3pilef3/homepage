@@ -8,6 +8,7 @@
 h1 {
 color: aliceblue;
 text-align: center;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -65,3 +66,42 @@ img {
 
 }
 
+
+#grad3 {
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient(black, red);
+    padding: 50px;
+    margin: auto;
+}
+    
+.tech {
+color:greenyellow;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 70px;
+text-align: right;
+line-height: .88;
+
+
+
+}
+
+.tech2 {
+    color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: left;
+    line-height: .7;
+
+}
+
+.square {
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+    }
