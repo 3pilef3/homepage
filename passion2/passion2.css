@@ -67,7 +67,7 @@ img {
 }
 
 
-#grad3 {
+.grad3 {
     height: 400px;
     width: 300px;
     background-image: linear-gradient(black, red);
@@ -97,11 +97,42 @@ line-height: .88;
 
 .square {
     background-color: lightblue;
-    width: 150px;
+    width: auto;
     height: 150px;
-    border: 1px solid;
+    border: 75px dashed;
     margin: 10px;
     padding: 10px;
     text-align: center;
     
     }
+
+
+    .square2 {
+        background-color: lightblue;
+        width: auto;
+        height: 100px;
+        border: 30px double;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        
+        }
+
+.grad4{
+    height: 100px;
+    width: 300px;
+    background-image: linear-gradient(white, black);
+    margin: auto;
+    padding: 50px;
+
+}
+
+.video {
+
+    /* margin-left: auto;
+    margin-right: auto;  */
+    display: block; 
+    height: 1000px;
+    width: 1000px;
+   margin: auto;
+}
