@@ -1,0 +1,39 @@
+*{
+box-sizing: border-box;
+}
+
+
+
+.container {
+background-color: lightblue;
+padding: 10px; 
+display: flex; 
+flex-direction: row;
+flex-wrap: wrap;
+
+justify-content: center;
+
+height: 400PX; 
+
+/* align-items:center; */
+align-content: center;
+
+gap: 10px 20px;
+}
+
+.item { 
+background-color: bisque;
+padding: 10px; 
+border: 1px solid;
+
+height: 100px;
+width: 100px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.special { 
+background-color: chartreuse;
+order: -3; 
+}
