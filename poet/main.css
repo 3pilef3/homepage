@@ -1,0 +1,158 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+background-color: black;
+
+}
+
+button{
+
+    width: 115px;
+    height: 22px;
+}
+
+img{
+
+    width: 150px;
+    height: 150px;
+}
+.box{ 
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.container{
+border: white 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin: auto;
+width: 500px;
+height: 100px;
+
+}
+
+.text1{
+    color: aliceblue;
+    margin: auto;
+    display: none;
+    font-size:18px;
+}
+
+.show{
+    display: block;
+}
+
+.text2{
+    color: aliceblue;
+    margin: auto;
+    display: none;
+    font-size:18px;
+}
+
+.show2{
+    display: block;
+}
+
+.text3{
+    color: aliceblue;
+    margin: auto;
+    display: none;
+    font-size:18px;
+
+}
+
+.text4{
+    color: aliceblue;
+    margin: auto;
+    display: none;
+    font-size:18px;
+
+}
+
+.text5{
+    color: aliceblue;
+    margin: auto;
+    display: none;
+    font-size:18px;
+
+}
+
+.text6{
+    color: aliceblue;
+    margin: auto;
+    display: none;
+    font-size:18px;
+
+}
+
+.text7{
+    color: aliceblue;
+    margin: auto;
+    display: none;
+    font-size:18px;
+
+}
+
+.text8{
+    color: aliceblue;
+    margin: auto;
+    display: none;
+    font-size:18px;
+
+}
+
+.text9{
+    color: aliceblue;
+    margin: auto;
+    display: none;
+    font-size:18px;
+
+}
+
+.show3{
+    display: block;
+}
+
+.show4{
+    display: block;
+}
+
+.show5{
+    display: block;
+}
+
+.show6{
+    display: block;
+}
+
+.show7{
+    display: block;
+}
+
+.show8{
+    display: block;
+}
+
+.show9{
+    display: block;
+}
+
+.poem{
+    width: 470px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+.draggable{
+    cursor: grab;
+}
