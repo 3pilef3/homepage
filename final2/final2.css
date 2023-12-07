@@ -8,10 +8,13 @@ body{
     display: inline-block;
     background: #060606;
     color: #ffffff;
-    /* font-family: sans-serif; */
-    font-size: 20px;
 }
 
+.box2{
+    margin: auto;
+    max-width: 800px;
+    height: 400px;
+}
 
 .box1{ 
     margin:auto;
@@ -23,11 +26,32 @@ body{
 
 }
 
-img{
-    width: 100%;
+ img{
+    width: 100%; 
 }
 
 .switch {
     animation-name: switch; 
     animation-duration: 1s;
+}
+
+.box3{
+ display: flex;
+ max-width: 1300px;
+ width: 1100px;
+ border: #060606 20px;
+
+}
+
+.flex1{
+    display: flex;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+}
+
+.flex2{
+    display: flex;
+    width: 500px;
+    height: 600px;
 }
