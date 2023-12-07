@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(231, 238, 21);
+}
+
+
+
+.highlight{
+    display: inline-block;
+    background: #060606;
+    color: #ffffff;
+}
+
+.box1{ 
+    margin:auto;
+    /* border: solid 10px; */
+    max-width: 1000px;
+    height: 1200px;
+    
+    position: relative;
+
+}
+
+img{
+    width: 100%;
+}
+
+.switch {
+    animation-name: switch; 
+    animation-duration: 1s;
+}
